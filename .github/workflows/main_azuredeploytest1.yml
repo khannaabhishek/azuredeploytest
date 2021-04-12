@@ -26,6 +26,9 @@ jobs:
       
     - name: Show directory
       run: pwd      
+
+    - name: List directory
+      run: ls -ltr      
       
     - name: Build with Maven
       run: mvn clean install
