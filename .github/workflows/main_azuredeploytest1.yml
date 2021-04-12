@@ -24,6 +24,9 @@ jobs:
     - name: Change directory
       run: cd thymeleaf
       
+    - name: Show directory
+      run: pwd      
+      
     - name: Build with Maven
       run: mvn clean install
 
