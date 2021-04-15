@@ -9,5 +9,9 @@ class ThymeleafApplicationTests {
 	@Test
 	void contextLoads() {
 	}
+	
+	@Test
+	void testController() {
+	}	
 
 }
